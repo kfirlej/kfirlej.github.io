@@ -1,0 +1,6 @@
+a[href=doc] {
+    color: green;
+}
+a[href=docx] {
+    color:magenta;
+}

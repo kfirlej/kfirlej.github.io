@@ -1,0 +1,9 @@
+/*
+q:lang(en) {
+    quotes: "\00ab" "\00bb";
+}
+*/
+
+q:before, q:after {
+    content: "*";
+}
