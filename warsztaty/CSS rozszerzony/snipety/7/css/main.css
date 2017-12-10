@@ -4,3 +4,7 @@ a[href=doc] {
 a[href=docx] {
     color:magenta;
 }
+
+/* [href$='.doc']  $ szuka koncowki */
+/* ~ szuka calego slowa oddzielonego spacjami */
+/* * szuka wszyzstkiego */

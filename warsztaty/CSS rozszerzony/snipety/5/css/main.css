@@ -1,3 +1,4 @@
+/*
 ul {
     list-style: none;
     padding: 0;
@@ -7,11 +8,29 @@ li {
     padding-left: 1.3em;
 }
 
-li::before {
+li:before {
     content: "\f17b";
-    /* FontAwesome Unicode */
     font-family: FontAwesome;
     display: inline-block;
     margin-left: -1.3em;
     width: 1.3em;
 }
+*/
+
+
+ul {
+    list-style: none;
+}
+
+li:before {
+    content: '\f17b';
+    font-family: FontAwesome;
+    margin-right: 5px;
+}
+
+
+
+
+
+
+

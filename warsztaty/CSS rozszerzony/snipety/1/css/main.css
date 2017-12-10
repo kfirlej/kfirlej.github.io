@@ -13,8 +13,14 @@
     height: 150px;
     background-color: pink;
     top: 25%;
-    left: 25%;
+/*    transform: translateY(-50%) obniża względem środka */ 
+/*    transform: translate(50%, 50%); 50% w pionie i poziomie */
+    left: 0;
+    right: 0;
+    margin: 0 auto;
 }
+
+
 
 
 

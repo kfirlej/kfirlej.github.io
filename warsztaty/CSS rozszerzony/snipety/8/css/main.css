@@ -1,9 +1,19 @@
-/*
-q:lang(en) {
-    quotes: "\00ab" "\00bb";
+q, blockquote {
+  quotes: '\0022' '\0022'; 
 }
-*/
 
-q:before, q:after {
-    content: "*";
+q:before, blockquote:before {
+    content: open-quote;
 }
+
+q:after, blockquote:after {
+    content: close-quote;
+}
+
+q[lang*='en'], blockquote[lang*='en'] {
+    quotes: '*' '*';
+}
+    
+q[lang*='en']:before, blockquote[lang*='en']:before {
+    content: open-quote;
+}    
