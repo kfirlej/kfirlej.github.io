@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.column-1-4 {
+    height: 100vh;
+    width: 25%;
+    transition: all 0.5s linear;
+    display: inline-block;
+    float: left;
+}
+
+.background {
+    height: 100%;
+    width: 200%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.column-1-4:hover {
+    width: 40%;
+}
+
+.container:hover .column-1-4:not(:hover) {
+    width: 20%;
+}
+
+.column-1-4:last-child {
+    position: absolute;
+    right: 0;
+}
+
+#background-1 {
+    background-image: url(http://www.canada.ducati.com/cms-web/upl/MediaGalleries/282/1/MediaGallery_1282578/Color_M-1200R_B-01_1067x600.jpg);
+}
+
+#background-2 {
+    background-image: url(http://www.ducatithailand.com/cms-web/upl/MediaGalleries/549/1/MediaGallery_1549306/Color_M-1200S_Red-01_1067x600.jpg);
+}
+
+#background-3 {
+    background-image: url(https://images.contentful.com/28uk7b0wvnz9/4qb6nMwVJCwQgoSaIgKAya/1d02cf3b8163938caeda2afabe6b9e44/Monster-1200S-MY18-Grey-15-Slider-Gallery-1920x1080.jpg);
+}
+
+#background-4 {
+    background-image: url(https://auto.ndtvimg.com/bike-images/gallery/ducati/monster-1200/exterior/side-view.jpg?v=2017-01-25);
+}

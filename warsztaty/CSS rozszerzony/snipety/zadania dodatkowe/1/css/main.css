@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+.fa.fa-heart {
+    display: inline-block;
+    color: red;
+    animation-name: beat;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+/*    animation: beat 15.s infinite; skrocony zapis */
+    
+}
+
+@keyframes beat {
+    0,
+    100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+}

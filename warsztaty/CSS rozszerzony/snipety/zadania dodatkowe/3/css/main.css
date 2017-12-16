@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+}
+
+.bgimg-1 {
+    background-image: url(http://all-moto.net/wp-content/uploads/parser/2012-ducati-diavel-10.jpg);
+/*    min-height: 100%;*/
+}
+
+.bgimg-2 {
+    background-image: url("https://media.zigcdn.com/media/photogallery/2017/Mar/ducati-diavel-diesel-launch-zigwheels-pic-photo-image-m8.jpg");
+/*    min-height: 400px;*/
+}
+
+.bgimg-3 {
+    background-image: url("https://www.cycleworld.com/sites/cycleworld.com/files/styles/1000_1x_/public/images/2017/05/ducati-diavel-diesel-img_8008-lead.jpg?itok=HkR-gQ9R&fc=50,50");
+/*    min-height: 400px;*/
+}
