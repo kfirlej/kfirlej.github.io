@@ -18,10 +18,10 @@ var parFirst = document.getElementById('parFirst');
 console.log(parFirst); //wybrane po ID
 
 var linki = document.getElementsByClassName('superLink');
-console.log(linki); //wybrane po klasie
+console.log(linki); //wybrane po nazwie klasy
 
 var linkiPoTagu = document.getElementsByTagName('a');
-console.log(linkiPoTagu); //wybrane po elemencie
+console.log(linkiPoTagu); //wybrane po znaczniku
 
 var divPoID = document.querySelector('#parSecond');
 console.log(divPoID); //pierwszy ID wystepujacy na stronie

@@ -1,49 +1,11 @@
 'use strict';
 
 var istniejacyWezel = document.getElementById('parFirst').children[2];
-console.log(istniejacyWezel);
 
-var newElement = document.createElement('p'); //stworz nowy element
-var newElementContent = document.createTextNode('To jest nowy paragraf'); //stworzenie nowego tekstu do paragrafu
+var linki = document.getElementsByTagName('a');
 
-newElement.appendChild(newElementContent);//dodaj tekst do elementu <p>
-console.log(newElement);
-
-istniejacyWezel.appendChild(newElement); //wyswietl na stronie
-//istniejacyWezel.removeChild(newElement); //usun na stronie
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+for (var i = 0; i < linki.lenght; i++) {
+    var br = document.createElement('br');
+    linki[i].removeAttribute('class');
+    linki[i].parentElement.insertBefore(br, linki[i].nextSibling);
+} //znalezeienie znacznikow 'a', dodanie br na koncach, usuniecie znacznika 'class'
