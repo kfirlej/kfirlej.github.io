@@ -2,10 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Index główny</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-   <a href="warsztaty/index.html">Warsztaty</a>
-   <a href="zadania_domowe/index.html">Zadania domowe</a> 
+    <div id="myDIV" class="header">
+  <h2>Lista</h2>
+  <input type="text" id="myInput" placeholder="Co by tu jeszcze...">
+  <span onclick="newElement()" class="addBtn">Dodaj</span>
+  <span onclick="clearList()" class="clearBtn">Wyczyść</span>
+</div>
+
+<ul id="myUL">
+<li>Element 1</li>
+<li>Element 2</li>
+<li>Element 3</li>
+<li>Element 4</li>
+<li>Element 5</li>
+</ul>
+
+<script src="JS/main.js"></script>
 </body>
 </html>
